@@ -48,8 +48,6 @@ def run(config_file):
 
     # Run for up to 300 generations.
     winner = p.run(eval_genomes, 300)
-    global evolution_done
-    evolution_done = 1
 
     # Display the winning genome.
     print('\nBest genome:\n{!s}'.format(winner))
